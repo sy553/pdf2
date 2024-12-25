@@ -1,0 +1,19 @@
+# 核心依赖
+PyQt6>=6.4.0
+PyPDF2>=3.0.0
+pdf2image>=1.16.0
+reportlab>=3.6.12
+Pillow>=9.3.0
+pikepdf>=8.7.1
+
+# 测试依赖
+pytest>=7.4.0
+pytest-qt>=4.2.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1
+
+# 开发工具
+black>=23.7.0  # 代码格式化
+flake8>=6.1.0  # 代码检查
+mypy>=1.5.1    # 类型检查
+isort>=5.12.0  # import排序 
